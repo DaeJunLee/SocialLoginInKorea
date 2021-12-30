@@ -1,0 +1,6 @@
+framework module SocialLoginKorea {
+  umbrella header "SocialLoginKorea-umbrella.h"
+
+  export *
+  module * { export * }
+}

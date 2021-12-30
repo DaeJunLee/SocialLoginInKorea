@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2E0F0CED9795B27447D5FD36 /* Pods_SocialLoginKorea_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD21FC7E65EFA4B5D5478D9 /* Pods_SocialLoginKorea_Tests.framework */; };
+		3CA4B094E71848AA6D55D8AC /* Pods_SocialLoginKorea.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0102B116331935ACA3FFFB3 /* Pods_SocialLoginKorea.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6CA82FDD53AC174CCC19059F /* Pods_SocialLoginKorea_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7523A2DC611778308C607D70 /* Pods_SocialLoginKorea_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B9330BBA187A0FD0CBD90A8 /* SocialLoginKorea.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SocialLoginKorea.podspec; path = ../SocialLoginKorea.podspec; sourceTree = "<group>"; };
+		0B9330BBA187A0FD0CBD90A8 /* SocialLoginKorea.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SocialLoginKorea.podspec; path = ../SocialLoginKorea.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3881116900CC13E80F051DFD /* Pods-SocialLoginKorea_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginKorea_Example.release.xcconfig"; path = "Target Support Files/Pods-SocialLoginKorea_Example/Pods-SocialLoginKorea_Example.release.xcconfig"; sourceTree = "<group>"; };
-		421ECF508201C7D99CA75303 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* SocialLoginKorea_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialLoginKorea_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		421ECF508201C7D99CA75303 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* SocialLoginKorea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialLoginKorea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,11 +42,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		711EBDFDC59626B42B8C26A6 /* Pods-SocialLoginKorea_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginKorea_Example.debug.xcconfig"; path = "Target Support Files/Pods-SocialLoginKorea_Example/Pods-SocialLoginKorea_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7523A2DC611778308C607D70 /* Pods_SocialLoginKorea_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLoginKorea_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92F907D85F9F463E647FFC08 /* Pods-SocialLoginKorea.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginKorea.debug.xcconfig"; path = "Target Support Files/Pods-SocialLoginKorea/Pods-SocialLoginKorea.debug.xcconfig"; sourceTree = "<group>"; };
+		A358EF0516363F6D773E670A /* Pods-SocialLoginKorea.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginKorea.release.xcconfig"; path = "Target Support Files/Pods-SocialLoginKorea/Pods-SocialLoginKorea.release.xcconfig"; sourceTree = "<group>"; };
 		ACD21FC7E65EFA4B5D5478D9 /* Pods_SocialLoginKorea_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLoginKorea_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACE273E7FD397B61E14AD3B4 /* Pods-SocialLoginKorea_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginKorea_Tests.release.xcconfig"; path = "Target Support Files/Pods-SocialLoginKorea_Tests/Pods-SocialLoginKorea_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D0102B116331935ACA3FFFB3 /* Pods_SocialLoginKorea.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialLoginKorea.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB34CCAE8B4EBCEEDAED2560 /* Pods-SocialLoginKorea_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialLoginKorea_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SocialLoginKorea_Tests/Pods-SocialLoginKorea_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DFFE28C5F5FBAC690EEE0749 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DFFE28C5F5FBAC690EEE0749 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CA82FDD53AC174CCC19059F /* Pods_SocialLoginKorea_Example.framework in Frameworks */,
+				3CA4B094E71848AA6D55D8AC /* Pods_SocialLoginKorea.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for SocialLoginKorea */,
+				607FACD21AFB9204008FA782 /* SocialLoginKorea */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				D05F223F84E0F66147DC4B7D /* Pods */,
@@ -84,13 +86,13 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* SocialLoginKorea_Example.app */,
+				607FACD01AFB9204008FA782 /* SocialLoginKorea.app */,
 				607FACE51AFB9204008FA782 /* SocialLoginKorea_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for SocialLoginKorea */ = {
+		607FACD21AFB9204008FA782 /* SocialLoginKorea */ = {
 			isa = PBXGroup;
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
@@ -100,7 +102,6 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for SocialLoginKorea";
 			path = SocialLoginKorea;
 			sourceTree = "<group>";
 		};
@@ -142,8 +143,8 @@
 		A1BA498F26B1675F06327DDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7523A2DC611778308C607D70 /* Pods_SocialLoginKorea_Example.framework */,
 				ACD21FC7E65EFA4B5D5478D9 /* Pods_SocialLoginKorea_Tests.framework */,
+				D0102B116331935ACA3FFFB3 /* Pods_SocialLoginKorea.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -155,17 +156,18 @@
 				3881116900CC13E80F051DFD /* Pods-SocialLoginKorea_Example.release.xcconfig */,
 				DB34CCAE8B4EBCEEDAED2560 /* Pods-SocialLoginKorea_Tests.debug.xcconfig */,
 				ACE273E7FD397B61E14AD3B4 /* Pods-SocialLoginKorea_Tests.release.xcconfig */,
+				92F907D85F9F463E647FFC08 /* Pods-SocialLoginKorea.debug.xcconfig */,
+				A358EF0516363F6D773E670A /* Pods-SocialLoginKorea.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* SocialLoginKorea_Example */ = {
+		607FACCF1AFB9204008FA782 /* SocialLoginKorea */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SocialLoginKorea_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SocialLoginKorea" */;
 			buildPhases = (
 				D0E85FBE4C709769D7EB8015 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -177,9 +179,9 @@
 			);
 			dependencies = (
 			);
-			name = SocialLoginKorea_Example;
+			name = SocialLoginKorea;
 			productName = SocialLoginKorea;
-			productReference = 607FACD01AFB9204008FA782 /* SocialLoginKorea_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* SocialLoginKorea.app */;
 			productType = "com.apple.product-type.application";
 		};
 		607FACE41AFB9204008FA782 /* SocialLoginKorea_Tests */ = {
@@ -228,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -236,7 +239,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* SocialLoginKorea_Example */,
+				607FACCF1AFB9204008FA782 /* SocialLoginKorea */,
 				607FACE41AFB9204008FA782 /* SocialLoginKorea_Tests */,
 			);
 		};
@@ -292,11 +295,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SocialLoginKorea_Tests/Pods-SocialLoginKorea_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+				"${BUILT_PRODUCTS_DIR}/KakaoSDKCommon/KakaoSDKCommon.framework",
+				"${PODS_ROOT}/naveridlogin-sdk-ios/NaverThirdPartyLogin.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KakaoSDKCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NaverThirdPartyLogin.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -309,7 +318,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SocialLoginKorea_Example/Pods-SocialLoginKorea_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-SocialLoginKorea/Pods-SocialLoginKorea-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/SocialLoginKorea/SocialLoginKorea.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -318,7 +327,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialLoginKorea_Example/Pods-SocialLoginKorea_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SocialLoginKorea/Pods-SocialLoginKorea-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D0E85FBE4C709769D7EB8015 /* [CP] Check Pods Manifest.lock */ = {
@@ -336,7 +345,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SocialLoginKorea_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SocialLoginKorea-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -368,7 +377,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* SocialLoginKorea_Example */;
+			target = 607FACCF1AFB9204008FA782 /* SocialLoginKorea */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -438,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -484,7 +493,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -494,7 +503,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 711EBDFDC59626B42B8C26A6 /* Pods-SocialLoginKorea_Example.debug.xcconfig */;
+			baseConfigurationReference = 92F907D85F9F463E647FFC08 /* Pods-SocialLoginKorea.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SocialLoginKorea/Info.plist;
@@ -509,7 +518,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3881116900CC13E80F051DFD /* Pods-SocialLoginKorea_Example.release.xcconfig */;
+			baseConfigurationReference = A358EF0516363F6D773E670A /* Pods-SocialLoginKorea.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SocialLoginKorea/Info.plist;
@@ -574,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SocialLoginKorea_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "SocialLoginKorea" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,

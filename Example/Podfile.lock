@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.5.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - KakaoSDKCommon (2.8.4):
+    - KakaoSDKCommon/Common (= 2.8.4)
+    - KakaoSDKCommon/Network (= 2.8.4)
+  - KakaoSDKCommon/Common (2.8.4)
+  - KakaoSDKCommon/Network (2.8.4):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.8.4)
+  - naveridlogin-sdk-ios (4.1.3)
+  - SocialLoginKorea (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - KakaoSDKCommon
+  - naveridlogin-sdk-ios
+  - SocialLoginKorea (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FBSnapshotTestCase
+    - KakaoSDKCommon
+    - naveridlogin-sdk-ios
+
+EXTERNAL SOURCES:
+  SocialLoginKorea:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  KakaoSDKCommon: 33c9902ee9ce13e9d1cac3549896406229836ff5
+  naveridlogin-sdk-ios: b9d7c20677981177ed994ecb1c8c2b49f223277d
+  SocialLoginKorea: 34843b3ebbd899de0d5b909539a2105a3a24cba9
+
+PODFILE CHECKSUM: d8926f687142a199ee77793c3983b35204924bcd
+
+COCOAPODS: 1.11.2

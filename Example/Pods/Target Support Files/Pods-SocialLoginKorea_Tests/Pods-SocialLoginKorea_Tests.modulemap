@@ -1,0 +1,6 @@
+framework module Pods_SocialLoginKorea_Tests {
+  umbrella header "Pods-SocialLoginKorea_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
