@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/DaeJunLee/SocialLoginKorea'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'DaeJunLee' => 'dejavudev@carang.co.kr' }
+  s.author           = { 'DaeJunLee' => '' }
   s.source           = { :git => 'https://github.com/DaeJunLee/SocialLoginKorea.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

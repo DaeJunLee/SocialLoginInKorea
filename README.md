@@ -22,7 +22,7 @@ pod 'SocialLoginKorea'
 
 ## Author
 
-DaeJunLee, dejavudev@carang.co.kr
+DaeJunLee
 
 ## License
 
